@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	
+	<PropertyGroup>
+		<AssemblyName>ImgToPdf</AssemblyName>
+		<RootNamespace>ImgToPdf</RootNamespace>
+		<Version>1.0.0.0</Version>  
+    	<FileVersion>1.0.0.0</FileVersion> 
+		<OutputPath>bin\</OutputPath>
+		<LangVersion>11.0</LangVersion>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+		<PublishSingleFile>true</PublishSingleFile>
+		<SelfContainer>true</SelfContainer>
+		<!-- <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    	<PlatformTarget>x64</PlatformTarget> -->
+    	<IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+		<!-- <ProduceReferenceAssembly>False</ProduceReferenceAssembly> -->
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<Compile Include="Program.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\src\ImageToPdfConverter\ImageToPdfConverter.csproj" />
+	</ItemGroup>
+	
+</Project>
