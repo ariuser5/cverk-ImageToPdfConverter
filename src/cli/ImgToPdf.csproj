@@ -14,17 +14,14 @@
 		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
 		<PublishSingleFile>true</PublishSingleFile>
 		<SelfContainer>true</SelfContainer>
-		<!-- <RuntimeIdentifier>win-x64</RuntimeIdentifier>
-    	<PlatformTarget>x64</PlatformTarget> -->
     	<IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
-		<!-- <ProduceReferenceAssembly>False</ProduceReferenceAssembly> -->
 	</PropertyGroup>
 	
 	<ItemGroup>
 		<Compile Include="Program.cs" />
 	</ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\src\ImageToPdfConverter\ImageToPdfConverter.csproj" />
+		<ProjectReference Include="..\lib\ImageToPdfConverter.csproj" />
 	</ItemGroup>
 	
 </Project>
