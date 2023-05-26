@@ -21,7 +21,7 @@
 		<Compile Include="Program.cs" />
 	</ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\lib\ImageToPdfConverter.csproj" />
+		<ProjectReference Include="..\..\lib\src\ImageToPdfConverter.csproj" />
 	</ItemGroup>
 	
 </Project>
